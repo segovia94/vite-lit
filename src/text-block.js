@@ -10,6 +10,12 @@ export class TextBlock extends LitElement {
 
   static get styles() {
     return css`
+      :host
+      *:before,
+      *:after {
+        box-sizing: border-box;
+      }
+
       :host {
         display: block;
       }
