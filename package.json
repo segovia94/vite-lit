@@ -1,0 +1,24 @@
+{
+  "name": "vite-lit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lit": "^2.2.7"
+  },
+  "devDependencies": {
+    "vite": "^3.0.0"
+  }
+}
