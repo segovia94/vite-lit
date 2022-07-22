@@ -18,11 +18,12 @@ export class TextBlock extends LitElement {
 
       :host {
         display: block;
+        --bg-color: gray;
       }
 
       .wrapper {
         padding: 1rem;
-        background-color: gray;
+        background-color: var(--bg-color)
       }
     `
   }
